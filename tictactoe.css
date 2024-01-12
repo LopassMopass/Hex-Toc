@@ -6,14 +6,6 @@
   margin: 0;
 }
 
-.title 
-{
-  color: white;
-  text-align: center;
-  font-size: 40px;
-  margin-top: 10%;
-}
-
 .display 
 {
   color: white;
@@ -32,8 +24,8 @@
 {
   margin: 0 auto;
   display: grid;
-  grid-template-columns: 33% 33% 33%;
-  grid-template-rows: 33% 33% 33%;
+  grid-template-columns: repeat(3, 33%);
+  grid-template-rows: repeat(3, 33%);
   max-width: 300px;
 
 }
@@ -75,10 +67,4 @@
   border-radius: 8px;
   border: none;
   font-size: 20px;
-  cursor: pointer;
-}
-
-.restart 
-{
-  background-color: #498AFB;
 }

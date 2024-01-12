@@ -1,0 +1,15 @@
+#dark-btn
+{
+  padding: 8px;
+  border-radius: 8px;
+  border: none;
+  font-size: 20px;
+}
+
+#light-btn
+{
+  padding: 8px;
+  border-radius: 8px;
+  border: none;
+  font-size: 20px;
+}
